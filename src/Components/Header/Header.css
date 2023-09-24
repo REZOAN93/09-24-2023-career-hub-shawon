@@ -1,0 +1,32 @@
+.header-container {
+  background-color: linear-gradient(
+    90deg,
+    rgba(126, 144, 254, 0.05) 0%,
+    rgba(152, 115, 255, 0.05) 100%
+  );
+}
+.btn-submit {
+  background: var(--Linear, linear-gradient(90deg, #7e90fe 0%, #9873ff 100%));
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+:root {
+  --Linear: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+}
+/* Apply the linear gradient as text color */
+.my-text {
+  background: var(--Linear);
+  background-clip: text;
+  -webkit-background-clip: text; /* For older browsers that require vendor prefix */
+  color: transparent; /* Hide the original text color */
+}
+
+
+
+
+
+
+
